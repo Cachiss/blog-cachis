@@ -2,15 +2,102 @@
 title: 'Tipos de proyectos y normativa.'
 description: 'Unidad I de la asignatura Metodología de Proyectos'
 pubDate: 'Sep 22 2022'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: 'https://www.adaptds.com/wp-content/uploads/2019/06/tipos-proyectos-header-e1559414385938.png'
 ---
+<style>
+    strong{
+        font-weight: bold;
+    }
+    h3{
+        color: #2337ff;
+        font-size: 2rem !important;
+        margin: 3rem 0px !important;
+    }
+</style>
+<section>
+    <p>
+        La investigación, la innovación y el desarrollo tecnológico son pilares fundamentales en la evolución de la sociedad y el progreso de la ciencia y la tecnología. Cada uno de estos campos se aborda a través de proyectos específicos diseñados para alcanzar objetivos particulares. En esta introducción, exploraremos los diferentes tipos de proyectos que se encuentran en estas tres categorías clave: los tipos de proyecto de investigación, los tipos de proyecto de innovación y los tipos de proyecto de desarrollo tecnológico.
+      
+</p>
+</section>
+<h3 class="font-bold text-2xl">Tipos de proyecto de investigación</h3>
+<section>
+    <p class="mt-5">
+        <strong class="font-bold">Investigación básica o pura:</strong> Se enfoca en la generación de conocimiento teórico y
+        tiene como objetivo principal ampliar la comprensión de un fenómeno o teoría sin
+        aplicaciones prácticas inmediatas.
+    </p>
+    <p>
+        <strong class="font-bold">Investigación aplicada:</strong> Busca aplicar los conocimientos teóricos existentes para
+        resolver problemas prácticos o mejorar procesos y productos. La investigación
+        aplicada tiene un enfoque más práctico y busca generar soluciones concretas.
+    </p>
+    <p>
+        <strong class="font-bold">Investigación documental:</strong> Se basa en el análisis y la interpretación de documentos
+        y fuentes bibliográficas para obtener información relevante sobre un tema
+        específico. Este tipo de investigación se centra en recopilar y analizar información
+        existente.
+    </p>
+    <p>
+        <strong class="font-bold">Investigación de desarrollo o desarrollo experimental:</strong> Tiene como objetivo crear
+        nuevos productos, procesos o tecnologías a través de la investigación y el desarrollo
+        de prototipos. Este tipo de investigación implica la implementación de pruebas y
+        experimentos para lograr avances tecnológicos.
+    </p>
+</section>
+<section >
+<h3 class="font-bold text-2xl my-10">Tipos de proyecto de Innovación</h3>
+<p>
+    <strong>Proyecto de innovación tecnológica:</strong> Se centra en la creación, adaptación o
+    modificación de productos o servicios tecnológicos mediante el uso de
+    conocimientos, métodos, procesos e instrumentos tecnológicos.
+</p>
+<p>
+    <strong>Proyecto de innovación social:</strong> Tiene como objetivo abordar desafíos sociales y
+    mejorar la calidad de vida de las personas. Busca generar soluciones innovadoras
+    para problemas sociales, como la pobreza, la educación, la salud, la inclusión, entre
+    otros.
+</p>
+<p>
+    <strong>Proyecto de innovación de procesos:</strong> Se enfoca en mejorar los procesos existentes
+    dentro de una organización, buscando aumentar la eficiencia, reducir costos,
+    optimizar recursos y mejorar la calidad de los resultados.
+</p>
+<p>
+    <strong>Proyecto de innovación de productos:</strong> Consiste en el desarrollo de nuevos productos
+    o la mejora de productos existentes. Busca introducir cambios significativos en los
+    productos para satisfacer las necesidades del mercado y ofrecer ventajas
+    competitivas.
+</p>
+<p>
+    <strong>Proyecto de innovación de modelos de negocio:</strong> Se centra en la creación o
+    modificación de modelos de negocio existentes. Implica identificar oportunidades de
+</p>
+</section>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
-
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
-
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+<section>
+<h3 class="font-bold text-2xl my-10">Tipos de proyecto de desarrollo tecnológico</h3>
+<p>
+    <strong>Proyecto de desarrollo de software:</strong> Se centra en la creación y mejora de software,
+    como aplicaciones, sistemas operativos, plataformas en línea, entre otros.
+</p>
+<p>
+    <strong>Proyecto de desarrollo de hardware:</strong> Se enfoca en el diseño y fabricación de
+    componentes electrónicos, dispositivos, equipos y sistemas físicos.
+</p>
+<p>
+    <strong>Proyecto de desarrollo de infraestructura tecnológica:</strong> Se centra en la creación,
+    mejora y mantenimiento de la infraestructura tecnológica, como redes de
+    comunicación, centros de datos, sistemas de almacenamiento, entre otros.
+</p>
+<p>
+    <strong>Proyecto de desarrollo de productos electrónicos:</strong> Implica la creación y mejora de
+    productos electrónicos, como dispositivos móviles, computadoras,
+    electrodomésticos inteligentes, entre otros.
+</p>
+<p>
+    <strong>Proyecto de desarrollo de tecnologías emergentes:</strong> Se enfoca en la investigación y
+    desarrollo de tecnologías emergentes, como inteligencia artificial, internet de las
+    cosas, realidad virtual y aumentada, blockchain, entre otras
+</p>
+</section>
