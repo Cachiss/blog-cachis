@@ -32,17 +32,6 @@ const subject = (await getCollection('subject'));
 				text-decoration: none;
 				transition: 0.2s ease;
 			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
 			ul li img {
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
@@ -93,7 +82,7 @@ const subject = (await getCollection('subject'));
 							<li>
 								<a href={`/subjects/${subject.slug}/`}>
 									<img width={720} height={360} src={subject.data.heroImage} alt="" />
-									<h4 class="title">{subject.data.title}</h4>
+									<h4 class="text-blue-800 text-center text-2xl mt-2">{subject.data.title}</h4>
 								</a>
 							</li>
 						))
