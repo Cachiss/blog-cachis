@@ -9,6 +9,4 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   site: 'https://example.com',
   integrations: [mdx(), sitemap(), tailwind()],
-  output: "server",
-  adapter: vercel()
 });
