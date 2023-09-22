@@ -15,10 +15,12 @@ const blog = defineCollection({
 const subject = defineCollection({
 	schema: z.object({
 		title: z.string(),
-		description: z.string(),
 		cuatrimestre: z.string(),
-		image: z.string().optional(),
+		heroImage: z.string().optional(),
 	}),
 });
 
-export const collections = { blog, subject };
+export const collections = { 
+	blog,
+	subject,
+};
