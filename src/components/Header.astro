@@ -63,7 +63,8 @@ import BarsIcon from '../assets/bars-icon.astro';
 	nav  {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
+		position: relative;
 	}
 	ul{
 		display: flex;
@@ -85,13 +86,24 @@ import BarsIcon from '../assets/bars-icon.astro';
 	.bars-icon{
 		display: none;
 	}
-	@media (max-width: 744px) {
+	.logo-container{
+		position: absolute;
+		top: 2;
+		left: 0;
+	}
+	.social-links{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	@media (max-width: 900px) {
 		.logo-container{
 			margin:2em 0;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			width: 100%;
+			position: static;
 		}
 		ul{
 			display: none;
@@ -117,6 +129,7 @@ import BarsIcon from '../assets/bars-icon.astro';
 		}
 		.social-links {
 			margin: 0 auto;
+			position: static;
 		}
 		.internal-links {
 			display: flex;
