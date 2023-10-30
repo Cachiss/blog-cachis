@@ -1,5 +1,5 @@
 ---
-title: 'UNIDAD I. Tipos de proyectos y normativa.'
+title: 'Tipos de proyectos y normativa.'
 description: 'Unidad I de la asignatura Metodología de Proyectos'
 pubDate: 'Sep 22 2022'
 heroImage: 'https://www.adaptds.com/wp-content/uploads/2019/06/tipos-proyectos-header-e1559414385938.png'

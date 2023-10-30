@@ -1,5 +1,5 @@
 ---
-title: 'UNIDAD II. Metodologías de desarrollo'
+title: 'Metodologías de desarrollo'
 description: 'Temas 2.1 y 2.2 de la asignatura Metodologías de Proyectos'
 pubDate: 'Sep 22 2023'
 heroImage: 'https://okhosting.com/wp-content/uploads/2015/12/Metodologias-de-disen%CC%83o-de-software.jpg'
