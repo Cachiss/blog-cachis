@@ -1,9 +1,10 @@
 ---
-title: 'Metodologías de desarrollo'
-description: 'Temas 2.1 y 2.2 de la asignatura Metodologías de Proyectos'
-pubDate: 'Sep 22 2023'
-heroImage: 'https://okhosting.com/wp-content/uploads/2015/12/Metodologias-de-disen%CC%83o-de-software.jpg'
+title: "Metodologías de desarrollo"
+description: "Temas 2.1 y 2.2 de la asignatura Metodologías de Proyectos"
+pubDate: "Sep 22 2023"
+heroImage: "https://okhosting.com/wp-content/uploads/2015/12/Metodologias-de-disen%CC%83o-de-software.jpg"
 ---
+
 <style>
     h2{
         font-weight: bold;
@@ -51,17 +52,18 @@ objetivos establecidos.
 De manera general, se trata de pedirle a las personas que den su opinión de manera estructurada
 para que puedas producir datos y estadísticas concretas que te guíen y de esta manera, obtengas
 resultados estadísticos confiables.
-    </p>
-    <strong>Características</strong>
-    <p>
-        La investigación cuantitativa busca medir un fenómeno, cuantificar, expresar en cifras, los
+
+</p>
+<strong>Características</strong>
+<p>
+La investigación cuantitativa busca medir un fenómeno, cuantificar, expresar en cifras, los
 parámetros estudiados en una población.
 Estas cifras pueden ser resultados descriptivos o comparativos, o pueden ser objeto de análisis
 estadísticos para establecer si existen vínculos significativos entre determinados parámetros
 estudiados.
-    </p>
-    <strong>Cualitativa</strong>
-    <p>
+</p>
+<strong>Cualitativa</strong>
+<p>
 La investigación cualitativa es un conjunto de técnicas de investigación que se utilizan para obtener
 una visión general del comportamiento y la percepción de las personas sobre un tema en particular.
 Genera ideas y suposiciones que pueden ayudar a entender cómo es percibido un problema por la
@@ -73,7 +75,9 @@ conocimiento profundo a través del análisis de textos (y palabras, más que n�
 Este diseño de investigación está enfocado en el significado y la observación de un fenómeno en
 el entorno natural. Se trata de datos que son difíciles de cuantificar. No rechaza cifras o estadísticas,
 pero simplemente no les da el primer lugar.
-    </p>
+
+</p>
+
 </section>
 
 <section>

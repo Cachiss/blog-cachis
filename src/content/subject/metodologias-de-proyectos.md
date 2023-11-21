@@ -1,7 +1,7 @@
 ---
-title: 'Metodologías de Proyectos'
-cuatrimestre: '7'
-heroImage: 'https://www.neo-si.com/wp-content/uploads/que-es-la-metodologia-agile.jpg'
+title: "Metodologías de Proyectos"
+cuatrimestre: "7"
+heroImage: "https://www.neo-si.com/wp-content/uploads/que-es-la-metodologia-agile.jpg"
 ---
 
 <h3 class="font-bold text-4xl mb-5">¿Qué es?</h3>

@@ -1,9 +1,8 @@
 ---
-title: '2.3 Metodologías ágiles de desarrollo.'
-description: 'Temas 2.3 de la asignatura Metodologías de Proyectos'
-pubDate: 'Oct 29 2023 10:30 PM'
-heroImage: 'https://number8.com/app/uploads/2023/06/Scrum-Approach.png'
-
+title: "2.3 Metodologías ágiles de desarrollo."
+description: "Temas 2.3 de la asignatura Metodologías de Proyectos"
+pubDate: "Oct 29 2023 10:30 PM"
+heroImage: "https://number8.com/app/uploads/2023/06/Scrum-Approach.png"
 ---
 
 <h2>Introducción</h2>
@@ -29,6 +28,7 @@ Mayor Colaboración: Fomentan la comunicación y colaboración entre los miembro
 Entregas Continuas: La entrega incremental de software garantiza que los clientes obtengan valor constantemente a lo largo del proyecto.
 
 Mayor Satisfacción del Cliente: Al involucrar a los clientes en el proceso de desarrollo, las metodologías ágiles aumentan la satisfacción del cliente.
+
 </p>
 
 <h2>Metodologías Ágiles vs. Metodologías Tradicionales</h2>
@@ -50,4 +50,3 @@ Las metodologías ágiles se centran en la entrega incremental de software funci
 <p>
 Las metodologías ágiles de desarrollo han revolucionado la forma en que las empresas diseñan y entregan software. Su enfoque en la adaptabilidad, la colaboración y la satisfacción del cliente ha llevado a un aumento en la eficiencia y la calidad del desarrollo de software. A medida que la industria tecnológica evoluciona, la adopción de metodologías ágiles se ha convertido en un diferenciador clave para el éxito.
 </p>
-

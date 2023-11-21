@@ -6,6 +6,30 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Image } from 'astro:assets';
 import CachisImage  from '../cachis-imagen(1).jpg'
 import { ViewTransitions } from 'astro:transitions';
+
+(async()=>{
+	try {		
+			const client_id = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+			const client_secret = import.meta.env.VITE_SPOTIFY_CLIENT_SECRET;
+			const refresh_token = import.meta.env.VITE_SPOTIFY_REFRESH_TOKEN;
+			
+			const accessToken_response = await fetch("https://accounts.spotify.com/api/token",{
+				method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: new URLSearchParams({
+        		grant_type: 'refresh_token',
+        		refresh_token: refresh_token,
+        		client_id: client_id
+      		}),
+			});
+	} catch (error) {
+		console.log(error)
+	}
+
+})();
+
 ---
 
 <!doctype html>
