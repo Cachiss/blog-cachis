@@ -1,6 +1,15 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "astro/tsconfigs/base",
+  "include": [
+    "src/**/*"
+  ],
   "compilerOptions": {
-    "strictNullChecks": true
+    "module": "esnext",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsxImportSource": "react"
   }
 }
