@@ -1,85 +1,79 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import { Image } from 'astro:assets';
-import CachisImage  from '../cachis-imagen(1).jpg'
-import { ViewTransitions } from 'astro:transitions';
-
-(async()=>{
-	try {		
-			const client_id = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-			const client_secret = import.meta.env.VITE_SPOTIFY_CLIENT_SECRET;
-			const refresh_token = import.meta.env.VITE_SPOTIFY_REFRESH_TOKEN;
-			
-			const accessToken_response = await fetch("https://accounts.spotify.com/api/token",{
-				method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      },
-      body: new URLSearchParams({
-        		grant_type: 'refresh_token',
-        		refresh_token: refresh_token,
-        		client_id: client_id
-      		}),
-			});
-	} catch (error) {
-		console.log(error)
-	}
-
-})();
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { Image } from "astro:assets";
+import CachisImage from "../cachis-imagen(1).jpg";
+import { ViewTransitions } from "astro:transitions";
 
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<ViewTransitions />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1 class="font-bold text-3xl lg:text-6xl mb-10 text-center">¡Hola a todos! 🎉</h1>
-			<div class="flex flex-col lg:flex-row items-center justify-center mb-3">
-				<Image src={CachisImage} alt="Foto de Marcos Camacho" id="cachis-img" class="w-2/3 m-auto lg:w-1/3 mx-5 shadow-2xl"/>
-				<ul class="mt-5 lg:mt-0" >
-					<li>Nombre: Marcos Camacho</li>
-					<li>País: México</li>
-					<li>Ciudad: San Juan Del Río, Querétaro</li>
-					<li>Edad: 20</li>
-					<li>Apodo: Cachis</li>
-					<li>Pasatiempos: Literatura y salir por nuevas experiencias.</li>
-				</ul>
-			</div>
-			<p class="mt-10">
-				Bienvenidos a mi sitio-blog personal, me llamo <strong>Marcos Jesús Camacho Ramírez</strong>,
-				tengo 20 años y soy un estudiante en Desarrollo de Software en la <a href="https://www.utsjr.edu.mx/" target="_blank" class="text-green-700">
-				Universidad Tecnológica de San Juan Del Río.</a>
-			</p>
-			<p class="mt-5">
-				En este sitio podrás encontrar información sobre mi, mis proyectos, publicaciones, algunos de mis pasatiempos,
-				y ciertas atenciones a las asignaturas de la carrera.
-			</p>
-			<p class="mt-5">
-				El blog está hecho con el nuevo framework web popular, <a href="https://astro.build/" target="_blank" class="text-purple-950 font-bold">Astro</a>, 
-				el cual he querido aprender desde hace ya tiempo y no encuentro ocasión más idónea para desarrollarlo que con mi blog personal. En particular es muy efieciente
-				para debido a la similitud de desarrollo con React, Vue, Svelte, etc. Sin mencionar lo bueno que es para este tipo de proyectos por la
-				velocidad con la que trabaja y el buen SEO que aporta.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <ViewTransitions />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1 class="font-bold text-3xl lg:text-6xl mb-10 text-center">
+        ¡Hola a todos! 🎉
+      </h1>
+      <div class="flex flex-col lg:flex-row items-center justify-center mb-3">
+        <Image
+          src={CachisImage}
+          alt="Foto de Marcos Camacho"
+          id="cachis-img"
+          class="w-2/3 m-auto lg:w-1/3 mx-5 shadow-2xl"
+        />
+        <ul class="mt-5 lg:mt-0">
+          <li>Nombre: Marcos Camacho</li>
+          <li>País: México</li>
+          <li>Ciudad: San Juan Del Río, Querétaro</li>
+          <li>Edad: 20</li>
+          <li>Apodo: Cachis</li>
+          <li>Pasatiempos: Literatura y salir por nuevas experiencias.</li>
+        </ul>
+      </div>
+      <p class="mt-10">
+        Bienvenidos a mi sitio-blog personal, me llamo <strong
+          >Marcos Jesús Camacho Ramírez</strong
+        >, tengo 20 años y soy un estudiante en Desarrollo de Software en la <a
+          href="https://www.utsjr.edu.mx/"
+          target="_blank"
+          class="text-green-700"
+        >
+          Universidad Tecnológica de San Juan Del Río.</a
+        >
+      </p>
+      <p class="mt-5">
+        En este sitio podrás encontrar información sobre mi, mis proyectos,
+        publicaciones, algunos de mis pasatiempos, y ciertas atenciones a las
+        asignaturas de la carrera.
+      </p>
+      <p class="mt-5">
+        El blog está hecho con el nuevo framework web popular, <a
+          href="https://astro.build/"
+          target="_blank"
+          class="text-purple-950 font-bold">Astro</a
+        >, el cual he querido aprender desde hace ya tiempo y no encuentro
+        ocasión más idónea para desarrollarlo que con mi blog personal. En
+        particular es muy efieciente para debido a la similitud de desarrollo
+        con React, Vue, Svelte, etc. Sin mencionar lo bueno que es para este
+        tipo de proyectos por la velocidad con la que trabaja y el buen SEO que
+        aporta.
+      </p>
+    </main>
+    <Footer />
+  </body><style>
+    p {
+      font-size: 1.2rem;
+      text-align: left;
+    }
+    #cachis-img {
+      border-radius: 100%;
+    }
+  </style>
 </html>
-
-
-<style>
-	p{
-		font-size: 1.2rem;
-		text-align: left;
-	}
-	#cachis-img{
-		border-radius: 100%;
-	}
-</style>

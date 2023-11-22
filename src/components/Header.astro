@@ -7,7 +7,7 @@ import BarsIcon from "../assets/bars-icon.astro";
 <header>
   <nav>
     <div class="logo-container">
-      <h2><a href="/">{SITE_TITLE}</a></h2>
+      <h2 class="!text-xl !font-normal"><a href="/">{SITE_TITLE}</a></h2>
 
       <div class="bars-icon">
         <BarsIcon />
@@ -50,10 +50,7 @@ import BarsIcon from "../assets/bars-icon.astro";
     background: white;
     box-shadow: 0 2px 8px rgba(var(--black), 5%);
   }
-  h2 {
-    margin: 0;
-    font-size: 1em;
-  }
+
 
   h2 a,
   h2 a.active {
