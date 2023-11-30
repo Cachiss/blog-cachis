@@ -36,6 +36,8 @@ export async function getCurrentSong(access_token: string): Promise<Song|null> {
                 }
             };
             const response = await fetch('https://api.spotify.com/v1/me/player/currently-playing', payload);
+
+            if(response.status !== 200) return null;
             const data = await response.json();
             console.log(data.item.artists);
             

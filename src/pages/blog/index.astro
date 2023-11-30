@@ -87,8 +87,7 @@ const posts = (await getCollection("blog")).sort(
               <li>
                 <a href={`/blog/${post.slug}/`}>
                   <img
-                    width={720}
-                    height={360}
+                    class="w-[443px] h-[314px]  object-cover "
                     src={post.data.heroImage}
                     alt=""
                   />
